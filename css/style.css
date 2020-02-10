@@ -1,55 +1,95 @@
-.nav-menu{
+.banner_bg{
 
-	position: absolute;
-	top: 0px;
-	margin-right: 20px;
+	position:fixed;
 }
 
-li{			
-	display: inline;
-	padding: 20px;
+.navbar-brand{
+	margin-left: 100px ;
+}
+
+.navbar-nav{
+	display: inline-flex;
 	color: white;
-}
-
-.center{
-
-		position: absolute;
-		color: white;
-		top: 20%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		font-family: 'Open Sans', sans-serif;
-		font-size:40px;	
-}	
-
-table{
-
+	margin-left: 300px;
 	width: 100%;
 }
 
-p{
+
+.banner_div{
+	height: 150px;
+}
+
+.banner_text{
+	text-align: center;
+	position: absolute;
+	color: white;
+	width: 40%;
+	margin-left: 450px;
+}
+
+ul{
+	margin-left: 40px;
+}
+
+li a{
+	color: white;
+	font-size: small;
+}
+
+.btn_div{
+
+	color: white;
+	background-color:red; 
+	border: none;
+	margin-top: 300px;
+	margin-left: 700px;
+}
+
+.row{
+	padding-bottom: 50px;
+	font-size: 13px;
+}
+
+.services{
+	margin-left: 250px;
+	margin-top: 350px;
+	width: 75%;
+}
+
+.col-sm-3{
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 }
 
-.btn_class{
+.footer-top{
 
-	position: relative;
-	margin-left: 250px;
-	margin-top: 30px;
+	background-color: rgb(58,62,100);
 }
 
-.btn{
+.footer-top span{
+	text-transform: uppercase;
+	color: white;
+	font-size: 10pt;
+}
 
-	color:white;
-	background-color: red;
+.footer-top p,.copyright p{
+
+	color: rgba(255,255,255,.6);
+	padding: 4px 4px;
+	font-size: 7pt;
+}
+
+.copyright{
+
+	background-color: rgb(49,52,84);
+}
+
+.fomore{
+
 	border: none;
-	height: 35px;
-	width: 120px;
-	position: relative;
-}
-
-body{
-
-	font-family: 'Open Sans', sans-serif;	
+	background: rgb(232,69,69);
+	padding: 10px 15px;
+	text-transform: uppercase;
+	color: white;
+	font-weight: 500;
 }
